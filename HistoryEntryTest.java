@@ -1,5 +1,4 @@
 import static org.junit.Assert.assertEquals;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,7 +13,7 @@ public class HistoryEntryTest {
 
     @Test
     public void shouldReturnTheFirstNumber() {
-        assertEquals(3, historyEntry.getFirstNumber(),0);
+        assertEquals(3, historyEntry.getFirstNumber(), 0);
     }
 
     @Test
@@ -24,7 +23,7 @@ public class HistoryEntryTest {
 
     @Test
     public void shouldReturnTheSecondNumber() {
-        assertEquals(6, historyEntry.getSecondNumber(),0);
+        assertEquals(6, historyEntry.getSecondNumber(), 0);
     }
 
     @Test
@@ -34,6 +33,6 @@ public class HistoryEntryTest {
 
     @Test
     public void shouldReturnTheResult() {
-        assertEquals(9, historyEntry.getResult(),0);
+        assertEquals(9, historyEntry.getResult(), 0);
     }
 }

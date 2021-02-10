@@ -7,7 +7,7 @@ public class HistoryEntry {
     private char equationSign;
     private double result;
 
-    public HistoryEntry(double firstNumber, char operator, double secondNumber, char equationSign, double result ) {
+    public HistoryEntry(double firstNumber, char operator, double secondNumber, char equationSign, double result) {
         this.firstNumber = firstNumber;
         this.operator = operator;
         this.secondNumber = secondNumber;
@@ -20,7 +20,7 @@ public class HistoryEntry {
     }
 
     public void setFirstNumber(double firstNumber) {
-         this.firstNumber = firstNumber;
+        this.firstNumber = firstNumber;
     }
 
     public char getOperator() {
@@ -28,15 +28,15 @@ public class HistoryEntry {
     }
 
     public void setOperator(char operator) {
-         this.operator = operator;
+        this.operator = operator;
     }
-    
+
     public double getSecondNumber() {
         return secondNumber;
     }
 
     public void setSecondNumber(double secondNumber) {
-         this.secondNumber = secondNumber;
+        this.secondNumber = secondNumber;
     }
 
     public char getEquationSign() {
@@ -44,7 +44,7 @@ public class HistoryEntry {
     }
 
     public void setEquationSign(char equationSign) {
-         this.equationSign = equationSign;
+        this.equationSign = equationSign;
     }
 
     public double getResult() {
@@ -52,6 +52,6 @@ public class HistoryEntry {
     }
 
     public void setResult(double result) {
-         this.result = result;
+        this.result = result;
     }
 }

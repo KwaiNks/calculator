@@ -1,6 +1,5 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,7 +18,7 @@ public class HistoryTest {
         assertEquals(1, history.getHistory().size());
 
         HistoryEntry historyEntriesOne = history.getHistory().get(0);
-        
+
         assertEquals(10, historyEntriesOne.getFirstNumber(), 0);
         assertEquals('+', historyEntriesOne.getOperator());
         assertEquals(12, historyEntriesOne.getSecondNumber(), 0);
