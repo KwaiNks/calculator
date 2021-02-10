@@ -46,4 +46,4 @@ public class Calculator {
         public double getValueStoredInMemory() {
                 return memory.getMemory();
         }
-}
+} 

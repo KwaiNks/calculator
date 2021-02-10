@@ -10,7 +10,7 @@ public class MemoryTest {
     public void setUp() {
         memory = new Memory();
     }
-
+    
     @Test
     public void shouldReturnZeroWhenTheMemoryHasNotBeenSet() {
         assertEquals(0, memory.getMemory(), 0);
@@ -20,7 +20,7 @@ public class MemoryTest {
     public void shouldReturnTheValueStoredInMemory() {
         memory.setMemory(1.87);
         assertEquals(1.87, memory.getMemory(), 0);
-    }
+    } 
 
     @Test
     public void shouldReturnZeroWhenTheMemoryIsCancelled() {

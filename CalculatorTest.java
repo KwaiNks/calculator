@@ -201,4 +201,4 @@ public class CalculatorTest {
 		calculator.storeValueInMemory(56.7);
 		assertEquals(56.7, calculator.getValueStoredInMemory(), 0);
 	}
-}
+} 
